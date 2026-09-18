@@ -1,0 +1,3934 @@
+{
+  "schemaVersion": 2,
+  "lastDataAudit": "2026-09-18",
+  "defaultJurisdiction": {
+    "code": "NG-FC",
+    "name": "Federal Capital Territory, Nigeria",
+    "authority": "Abuja Environmental Protection Board (AEPB)",
+    "contactNote": "Confirm collection options for your district before travelling or disposing of an item.",
+    "phoneNumbers": [
+      "07026550000",
+      "08091038888"
+    ],
+    "sourceId": "fcta-waste-contact"
+  },
+  "streams": {
+    "recyclable": "Recyclable material",
+    "organic": "Organic waste",
+    "e-waste": "Electronic waste",
+    "hazardous": "Hazardous waste",
+    "general": "General waste",
+    "construction": "Construction waste",
+    "industrial": "Industrial waste",
+    "compostable": "Compostable waste"
+  },
+  "riskLevels": {
+    "standard": "Standard handling",
+    "take-care": "Take care",
+    "special-handling": "Special handling"
+  },
+  "routeLabels": {
+    "recycling": "Material recycling",
+    "compost": "Composting or organic collection",
+    "reuse-or-donate": "Reuse or donation",
+    "e-waste-collection": "Electronic-waste collection",
+    "hazardous-collection": "Hazardous-waste collection",
+    "specialist-service": "Specialist or take-back service",
+    "general-waste": "General waste",
+    "check-locally": "Check local options"
+  },
+  "sources": {
+    "aepb-profile": {
+      "title": "Abuja Environmental Protection Board",
+      "organisation": "Federal Capital Territory Administration",
+      "url": "https://www.fcta.gov.ng/ova_dep/abuja-environmental-protection-board-aepb/"
+    },
+    "fcta-waste-contact": {
+      "title": "FCT municipal frequently asked questions",
+      "organisation": "Federal Capital Territory Administration",
+      "url": "https://www.fcta.gov.ng/faq/"
+    },
+    "nesrea-regulations": {
+      "title": "National environmental laws and regulations",
+      "organisation": "NESREA",
+      "url": "https://nesrea.gov.ng/laws-regulations/"
+    },
+    "nesrea-electronics-regulations": {
+      "title": "National Environmental (Electrical/Electronic Sector) Regulations, 2022",
+      "organisation": "NESREA",
+      "url": "https://nesrea.gov.ng/laws-regulations/"
+    },
+    "nesrea-battery-regulations": {
+      "title": "National Environmental (Battery Control) Regulations, 2024",
+      "organisation": "NESREA",
+      "url": "https://nesrea.gov.ng/laws-regulations/"
+    },
+    "nesrea-healthcare-waste": {
+      "title": "National Environmental (Healthcare Waste Control) Regulations, 2021",
+      "organisation": "NESREA",
+      "url": "https://nesrea.gov.ng/laws-regulations/"
+    },
+    "nesrea-epr-guidance": {
+      "title": "Extended Producer Responsibility guidance",
+      "organisation": "NESREA",
+      "url": "https://www.nesrea.gov.ng/wp-content/uploads/2021/02/Finalized_EPR_Guidance_Document.pdf"
+    },
+    "nafdac-medicine-disposal": {
+      "title": "Safe disposal of old medicines at home",
+      "organisation": "NAFDAC",
+      "url": "https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Poison_Control/Safe-disposal-of-Old-Medicines-at-Home-Tips-for-Parents-and-Caregivers.pdf"
+    },
+    "who-sharps": {
+      "title": "Safe handling and disposal recommendations for sharps",
+      "organisation": "World Health Organization",
+      "url": "https://cdn.who.int/media/docs/default-source/substance-use/9789241596275-eng.pdf"
+    }
+  },
+  "items": [
+    {
+      "id": "aerosol-can",
+      "name": "Aerosol Can",
+      "aliases": [
+        "Spray Cans",
+        "Deodorant Spray",
+        "Air Freshener Can",
+        "Body Spray"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "pressurised"
+      ],
+      "description": "Pressurized containers that dispense a substance when activated.",
+      "guidance": {
+        "disposal": "Recycling center",
+        "preparation": "Ensure cans are empty before recycling. Do not puncture or incinerate.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "aluminium-can",
+      "name": "Aluminium Can",
+      "aliases": [
+        "Soda Cans",
+        "Beer Cans"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Lightweight metal containers used for drinks or other products.",
+      "guidance": {
+        "disposal": "Recycling center",
+        "preparation": "Rinse cans before recycling. Crush to save space.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "aluminium-foil",
+      "name": "Aluminium Foil",
+      "aliases": [
+        "Tin Foil",
+        "Foil Wrap",
+        "Foil"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Thin metal sheet used for wrapping food or lining cooking trays.",
+      "guidance": {
+        "disposal": "Recycling center",
+        "preparation": "Clean and flatten foil before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "animal-bones",
+      "name": "Animal Bones",
+      "aliases": [
+        "Bones"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Hard skeletal remains from animals, often discarded after meals or processing. They can be used for making broth or ground into bone meal for fertilizer",
+      "guidance": {
+        "disposal": "Compost, or dispose of in organic waste if allowed.",
+        "preparation": "Compost or dispose of in organic waste bins. If in large quantities, dispose of properly to avoid attracting pests.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "animal-waste",
+      "name": "Animal Waste",
+      "aliases": [
+        "Pet Waste",
+        "Manure",
+        "Droppings"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "contaminated"
+      ],
+      "description": "Waste produced by animals, including pet feces and livestock manure.",
+      "guidance": {
+        "disposal": "Compost for livestock waste or regular trash for pet waste",
+        "preparation": "Wear gloves when handling. Do not dispose of in waterways.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "ash",
+      "name": "Ash",
+      "aliases": [
+        "Wood Ash",
+        "Coal Ash"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Powdery residue left after burning organic materials like wood or coal.",
+      "guidance": {
+        "disposal": "Landfill or compost in small quantities",
+        "preparation": "Ensure ash is cool before disposal. Avoid inhaling dust.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "barrels-drums",
+      "name": "Barrels/Drums",
+      "aliases": [
+        "Steel Drums",
+        "Plastic Barrels",
+        "Oil Drums"
+      ],
+      "streams": [
+        "industrial"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Large cylindrical containers used for storage or transport of liquids and other materials.",
+      "guidance": {
+        "disposal": "Recycling center or hazardous waste site",
+        "preparation": "Ensure barrels are empty and clean before recycling.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Industrial Waste"
+    },
+    {
+      "id": "batteries",
+      "name": "Batteries",
+      "aliases": [
+        "AA Battery",
+        "AAA Battery",
+        "Lithium-Ion Battery",
+        "Car Battery"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [],
+      "description": "Devices that store chemical energy for electrical use.",
+      "guidance": {
+        "disposal": "Battery recycling facility or hazardous waste collection site",
+        "preparation": "Wear gloves to avoid exposure to battery acid. Do not dispose of in regular trash.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-battery-regulations",
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "bedding-and-blankets",
+      "name": "Bedding and Blankets",
+      "aliases": [
+        "Sheets",
+        "Comforters",
+        "Duvets",
+        "Pillows"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Household textiles used for covering and cushioning beds.",
+      "guidance": {
+        "disposal": "Textile recycling program or donation",
+        "preparation": "Ensure items are clean before donating.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "beverage-cartons",
+      "name": "Beverage Cartons",
+      "aliases": [
+        "Juice Boxes",
+        "Milk Cartons",
+        "Juice Carton"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Cardboard containers used for storing liquids like milk or juice.",
+      "guidance": {
+        "disposal": "Recycling bin (if accepted locally)",
+        "preparation": "Rinse before recycling. Remove plastic caps.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "bicycles",
+      "name": "Bicycles",
+      "aliases": [
+        "Bikes",
+        "Cycles"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Two-wheeled vehicles powered by pedals.",
+      "guidance": {
+        "disposal": "Metal recycling facility or donation",
+        "preparation": "Remove tires and accessories before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "aliases": [
+        "Novels",
+        "Textbooks",
+        "Paperbacks"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Bound printed materials used for reading or study.",
+      "guidance": {
+        "disposal": "Paper recycling or donation",
+        "preparation": "Remove plastic covers and any metal bindings.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "bottles",
+      "name": "Bottles",
+      "aliases": [
+        "PET Bottles",
+        "Water Bottles"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Containers made of plastic, commonly used for water, soda, or other beverages.",
+      "guidance": {
+        "disposal": "Plastic recycling bin",
+        "preparation": "Rinse bottles before recycling. Remove caps if required by local recycling guidelines.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "brake-fluid",
+      "name": "Brake fluid",
+      "aliases": [
+        "Hydraulic Fluid"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Liquid used in hydraulic brake systems to transfer force.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site",
+        "preparation": "Store in a sealed container. Do not mix with other fluids.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "building-materials-bricks",
+      "name": "Building Materials / Bricks",
+      "aliases": [
+        "Concrete",
+        "Cement Blocks"
+      ],
+      "streams": [
+        "construction"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Construction materials used in building structures.",
+      "guidance": {
+        "disposal": "Construction waste facility or reuse",
+        "preparation": "Avoid inhaling dust. Ensure proper transportation to a disposal site.",
+        "routes": [
+          "reuse-or-donate"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Construction and Demolition Waste"
+    },
+    {
+      "id": "canned-food",
+      "name": "Canned food",
+      "aliases": [
+        "Tinned Food",
+        "Preserved Food"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Food sealed in metal cans for long-term storage.",
+      "guidance": {
+        "disposal": "Metal recycling bin (for cans), food in compost (if applicable)",
+        "preparation": "Rinse cans before recycling. Check if food inside is compostable.",
+        "routes": [
+          "compost",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "carpets",
+      "name": "Carpets",
+      "aliases": [
+        "Rugs",
+        "Mats"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Textile floor coverings typically made of woven fabric.",
+      "guidance": {
+        "disposal": "Textile recycling or landfill",
+        "preparation": "Remove adhesives or tacks before disposal.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "cassava-peels",
+      "name": "Cassava Peels",
+      "aliases": [
+        "Cassava Skins"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Outer skin removed from cassava roots during processing, often considered waste but can be used as animal feed or composted.",
+      "guidance": {
+        "disposal": "Compost or dispose of with organic waste.",
+        "preparation": "Compost or use as animal feed. Avoid improper disposal, which could attract pests.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "cassette-tapes",
+      "name": "Cassette Tapes",
+      "aliases": [
+        "Audio Tapes",
+        "Music Tapes"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Magnetic tapes used to record and play music or audio.",
+      "guidance": {
+        "disposal": "E-waste recycling center or landfill",
+        "preparation": "Remove any metallic components before disposal.",
+        "routes": [
+          "e-waste-collection",
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "cds",
+      "name": "CDs",
+      "aliases": [
+        "Compact Discs",
+        "Music Discs",
+        "Data Discs"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Optical discs used for storing music, videos, or data.",
+      "guidance": {
+        "disposal": "E-waste recycling or specialized recycling programs",
+        "preparation": "Avoid breaking the disc, as it can cause sharp shards.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "cereal-boxes",
+      "name": "Cereal Boxes",
+      "aliases": [
+        "Food Packaging",
+        "Cardboard Boxes"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Cardboard packaging for storing cereal or other dry goods.",
+      "guidance": {
+        "disposal": "Recycling bin",
+        "preparation": "Remove any plastic liners or packaging.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "cigarette",
+      "name": "Cigarette",
+      "aliases": [
+        "Smoke"
+      ],
+      "streams": [
+        "general",
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [],
+      "description": "A small roll of finely cut tobacco wrapped in paper for smoking. It produces non-biodegradable waste, including the filter and ash.",
+      "guidance": {
+        "disposal": "Extinguish fully, and dispose of in regular trash. Filters are not biodegradable.",
+        "preparation": "Ensure fully extinguished before disposal. Do not litter; place in a bin to prevent fire and environmental harm.",
+        "routes": [
+          "hazardous-collection",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Inorganic Waste / Hazardous Waste"
+    },
+    {
+      "id": "cleaning-products",
+      "name": "Cleaning Products",
+      "aliases": [
+        "Household Chemicals",
+        "Cleaning Agents",
+        "Bleach"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Substances used for cleaning or other chemical processes.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site",
+        "preparation": "Store in original containers with labels intact. Do not mix different chemicals.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "clothes",
+      "name": "Clothes",
+      "aliases": [
+        "Apparel",
+        "Garments",
+        "Textiles"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Fabric-based garments worn for protection or fashion.",
+      "guidance": {
+        "disposal": "Textile recycling, donation, or regular trash if unusable",
+        "preparation": "Ensure clothes are clean before donating or recycling.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "cooking-oil",
+      "name": "Cooking Oil",
+      "aliases": [
+        "Vegetable Oil",
+        "Olive Oil",
+        "Sunflower Oil"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "A liquid fat used for frying, baking, or cooking. After use, it can be recycled into biodiesel or properly disposed of to prevent clogging drains.",
+      "guidance": {
+        "disposal": "Do not pour down drains. Collect in a container and take to a recycling center or dispose of it with solid waste if small quantities.",
+        "preparation": "Allow it to cool before disposal. Never pour down the drain as it can cause blockages. Use a sealed container for disposal.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "cooking-oil-containers",
+      "name": "Cooking Oil Containers",
+      "aliases": [
+        "Oil Cans",
+        "Oil Bottles"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Bottles or cans that store cooking oil, typically made of plastic or metal. They are recyclable when emptied and cleaned.",
+      "guidance": {
+        "disposal": "Clean and recycle plastic or metal containers where accepted.",
+        "preparation": "Clean before recycling. Plastic or metal containers should go into respective recycling streams.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "cotton-buds",
+      "name": "Cotton Buds",
+      "aliases": [
+        "Q-tips"
+      ],
+      "streams": [
+        "general",
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small sticks with cotton tips used for cleaning ears or cosmetic purposes. They are often single-use and may contribute to plastic waste unless made from biodegradable materials.",
+      "guidance": {
+        "disposal": "If made of plastic, throw in the trash. Biodegradable ones can be composted.",
+        "preparation": "Avoid flushing down the toilet as they can block drains and pollute water systems. Dispose of in regular waste.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Organic Waste"
+    },
+    {
+      "id": "computer-monitors",
+      "name": "Computer Monitors",
+      "aliases": [
+        "Screens",
+        "Displays"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Display devices used with computers or video equipment.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Handle with care to avoid exposure to hazardous materials.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "dead-animals",
+      "name": "Dead Animals",
+      "aliases": [
+        "Animal Carcasses",
+        "Deceased Pets"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "contaminated"
+      ],
+      "description": "The remains of dead animals, including pets or wildlife.",
+      "guidance": {
+        "disposal": "Contact animal control or veterinary services for proper disposal",
+        "preparation": "Wear gloves and handle with care to avoid disease transmission.",
+        "routes": [
+          "specialist-service"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "dental-floss",
+      "name": "Dental Floss",
+      "aliases": [
+        "Oral Floss"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "A thin, flexible string used to clean between teeth. Usually made of nylon or Teflon, it’s generally not recyclable and is discarded after use.",
+      "guidance": {
+        "disposal": "Non-recyclable, throw in regular trash.",
+        "preparation": "Do not flush. Dispose of in regular waste as it can clog drains and harm wildlife if littered.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "diapers",
+      "name": "Diapers",
+      "aliases": [],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "contaminated"
+      ],
+      "description": "Absorbent garments used for babies and incontinent adults, made from plastic, paper, and absorbent gels. They are single-use items.",
+      "guidance": {
+        "disposal": "Non-recyclable, dispose of in regular trash.",
+        "preparation": "Wrap in a plastic bag before disposal to prevent odors. Dispose of in regular waste, as they are non-recyclable.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "dvd",
+      "name": "DVD",
+      "aliases": [
+        "Digital Versatile Disc",
+        "Movie Disc"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Optical disc used for storing digital video, audio, or data.",
+      "guidance": {
+        "disposal": "E-waste recycling or specialized recycling programs",
+        "preparation": "Avoid breaking the disc to prevent sharp shards.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "egg-cartons",
+      "name": "Egg Cartons",
+      "aliases": [
+        "Egg Boxes"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Packaging material made from cardboard or plastic to protect eggs during transportation. Cardboard versions are recyclable or compostable, while plastic ones can be recycled.",
+      "guidance": {
+        "disposal": "Recycle cardboard cartons in paper recycling. Plastic cartons can go in plastic recycling.",
+        "preparation": "Recycle if clean, or compost if made from cardboard. Clean plastic cartons before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "electronic-cables",
+      "name": "Electronic Cables",
+      "aliases": [
+        "Wires",
+        "Cords"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Wires used to connect electronic devices to power sources or other devices. Often made from copper, aluminum, and plastic, they are recyclable through e-waste programs.",
+      "guidance": {
+        "disposal": "Recycle through electronic waste (e-waste) collection programs.",
+        "preparation": "Recycle at e-waste facilities. Avoid cutting or burning, as they contain toxic materials.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "engine-oil",
+      "name": "Engine Oil",
+      "aliases": [
+        "Motor Oil",
+        "Synthetic Oil"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "A lubricant used in vehicle engines to reduce wear on moving parts. It needs to be disposed of properly due to its hazardous nature, but it can be recycled and re-refined.",
+      "guidance": {
+        "disposal": "Dispose of at a hazardous waste facility or return to an auto service center for recycling.",
+        "preparation": "Never pour on the ground or down the drain. Store in a sealed container and take to a hazardous waste facility.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "envelopes",
+      "name": "Envelopes",
+      "aliases": [
+        "Mail Envelopes",
+        "Paper Envelopes"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Paper-based packaging used for sending letters or documents.",
+      "guidance": {
+        "disposal": "Paper recycling bin",
+        "preparation": "Remove plastic windows before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "exercise-equipment",
+      "name": "Exercise Equipment",
+      "aliases": [
+        "Gym Equipment",
+        "Treadmills",
+        "Dumbbells"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Machines and tools used for physical exercise, often made of metal and plastic.",
+      "guidance": {
+        "disposal": "Metal recycling center or donation",
+        "preparation": "Disassemble bulky equipment for easier transport.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "fax-machines",
+      "name": "Fax Machines",
+      "aliases": [
+        "Facsimile Machines",
+        "Telefax"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Devices used to send documents via telephone networks.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Remove ink cartridges before recycling.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "fertilizers",
+      "name": "Fertilizers",
+      "aliases": [
+        "Plant Food",
+        "Compost"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Substances added to soil to promote plant growth, often containing nitrogen, phosphorus, and potassium.",
+      "guidance": {
+        "disposal": "Use as directed or dispose of at hazardous waste collection sites",
+        "preparation": "Store in a cool, dry place. Do not overapply to avoid runoff.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "fire-extinguishers",
+      "name": "Fire Extinguishers",
+      "aliases": [
+        "Fire Suppressant",
+        "Extinguishing Agent"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "pressurised"
+      ],
+      "description": "Devices used to control small fires, containing chemicals like CO or foam.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site",
+        "preparation": "Do not puncture or incinerate. Ensure the extinguisher is empty before disposal.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "foil",
+      "name": "Foil",
+      "aliases": [
+        "Aluminum Foil",
+        "Tin Foil"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Thin metal sheets often used for wrapping food or lining surfaces.",
+      "guidance": {
+        "disposal": "Recycling center",
+        "preparation": "Clean and flatten foil before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "food-container",
+      "name": "Food Container",
+      "aliases": [
+        "Tupperware",
+        "Plastic Containers"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Plastic containers used to store food, often reusable.",
+      "guidance": {
+        "disposal": "Plastic recycling bin",
+        "preparation": "Rinse containers before recycling. Remove any labels or stickers.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "fruit-peels",
+      "name": "Fruit Peels",
+      "aliases": [
+        "Fruit Rinds"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "The outer skin of fruits like oranges, bananas, or mangoes, typically discarded after consumption but compostable and useful in gardens or animal feed.",
+      "guidance": {
+        "disposal": "Compost or dispose of with organic waste.",
+        "preparation": "Compost organic waste where possible. Avoid throwing in the street as they attract pests.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "aliases": [
+        "Chairs",
+        "Tables",
+        "Sofas"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Household or office items used for seating, storage, or decoration.",
+      "guidance": {
+        "disposal": "Donate, reuse, or dispose of at large-item waste facilities",
+        "preparation": "Disassemble large items for easier transport. Ensure items are clean if donating.",
+        "routes": [
+          "reuse-or-donate"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "gas-cylinders",
+      "name": "Gas Cylinders",
+      "aliases": [
+        "Propane Tanks",
+        "Butane Canisters",
+        "Oxygen Tanks"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "pressurised"
+      ],
+      "description": "Pressurized containers used for storing gases like propane or butane.",
+      "guidance": {
+        "disposal": "Return to supplier or hazardous waste facility",
+        "preparation": "Do not puncture or incinerate. Ensure cylinders are empty before disposal.",
+        "routes": [
+          "hazardous-collection",
+          "specialist-service"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "gas-stoves",
+      "name": "Gas Stoves",
+      "aliases": [
+        "Gas Cookers"
+      ],
+      "streams": [
+        "e-waste",
+        "recyclable"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Appliances that use gas (like propane or butane) to cook food. They can be recycled when dismantled into metal and plastic components.",
+      "guidance": {
+        "disposal": "Recycle as scrap metal or dispose of at e-waste facilities.",
+        "preparation": "Ensure fully disconnected from gas before disposal. Recycle at scrap metal facilities.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste / Recyclable Waste"
+    },
+    {
+      "id": "glue",
+      "name": "Glue",
+      "aliases": [
+        "Adhesive",
+        "Paste",
+        "Cement"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Sticky substance used for bonding materials together, typically in tubes or bottles.",
+      "guidance": {
+        "disposal": "Regular trash (small quantities) or hazardous waste collection",
+        "preparation": "Allow glue to harden before disposal. Do not pour liquid glue down drains.",
+        "routes": [
+          "hazardous-collection",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "hair-weaves",
+      "name": "Hair Weaves",
+      "aliases": [
+        "Wigs",
+        "Hair Extensions"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Extensions made from synthetic or real human hair, used to enhance or change a person’s hairstyle. After use, they are often discarded and contribute to landfill waste.",
+      "guidance": {
+        "disposal": "Non-recyclable, dispose of in regular trash.",
+        "preparation": "Dispose of in regular trash. Do not flush or burn as they can block drains or release harmful fumes.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "ink-cartridges",
+      "name": "Ink Cartridges",
+      "aliases": [
+        "Printer Cartridges",
+        "Toner Cartridges"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Replaceable containers of ink used in printers.",
+      "guidance": {
+        "disposal": "Recycling programs or return to manufacturer",
+        "preparation": "Avoid leaking ink. Handle with gloves if necessary.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "insecticide",
+      "name": "Insecticide",
+      "aliases": [
+        "Bug Spray",
+        "Pesticide",
+        "Pest Control"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Chemical substances used to kill insects or other pests.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site",
+        "preparation": "Do not dispose of in regular trash. Wear gloves and follow safety instructions.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "inhalers",
+      "name": "Inhalers",
+      "aliases": [
+        "Asthma Inhalers"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "pressurised",
+        "healthcare"
+      ],
+      "description": "Medical devices used to deliver medication to the lungs, commonly for asthma or COPD. They are made from plastic and metal, and some parts can be recycled.",
+      "guidance": {
+        "disposal": "Return to pharmacies with recycling programs or dispose of in hazardous waste.",
+        "preparation": "Do not throw in regular trash if they still contain medicine. Return to pharmacies or dispose of as hazardous waste.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "iron-sheets",
+      "name": "Iron Sheets",
+      "aliases": [
+        "Sheet Metal"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Corrugated or flat sheets of iron used primarily for roofing or construction. They are durable and can be recycled as scrap metal after use.",
+      "guidance": {
+        "disposal": "Recycle as scrap metal.",
+        "preparation": "Handle with care to avoid injury. Recycle at scrap metal facilities.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "jewelry",
+      "name": "Jewelry",
+      "aliases": [
+        "Rings",
+        "Necklaces",
+        "Bracelets"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Items made from precious metals or stones, worn for adornment.",
+      "guidance": {
+        "disposal": "Donate, sell, or recycle (depending on the material)",
+        "preparation": "Handle with care, especially for valuable items.",
+        "routes": [
+          "reuse-or-donate",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "jute-bags",
+      "name": "Jute Bags",
+      "aliases": [
+        "Burlap Bags"
+      ],
+      "streams": [
+        "organic",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Reusable bags made from natural jute fibers, often used for carrying groceries or goods. They are biodegradable and environmentally friendly.",
+      "guidance": {
+        "disposal": "Compost or recycle through textile recycling programs.",
+        "preparation": "Compost if natural fiber. Avoid mixing with non-biodegradable waste.",
+        "routes": [
+          "compost",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste/Recyclable Waste"
+    },
+    {
+      "id": "kettles",
+      "name": "Kettles",
+      "aliases": [
+        "Tea Kettle",
+        "Electric Kettle"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Small kitchen appliances used for boiling water.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Remove any detachable parts (like cords) before recycling.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "keys",
+      "name": "Keys",
+      "aliases": [
+        "House Keys",
+        "Car Keys",
+        "Door Keys"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Metal tools used to unlock doors or secure locks. Typically made from brass or steel.",
+      "guidance": {
+        "disposal": "Recycle as scrap metal at metal recycling facilities.",
+        "preparation": "Ensure they are placed in a metal recycling bin. Do not mix with regular waste as they can be recycled.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "kitchen-scraps",
+      "name": "Kitchen Scraps",
+      "aliases": [
+        "Food Scraps",
+        "Food Waste"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Organic waste from food preparation, like vegetable peels or leftover food.",
+      "guidance": {
+        "disposal": "Compost organic materials or throw them in organic waste bins.",
+        "preparation": "Compost where possible. Do not mix with non-compostable waste to prevent contamination.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "kitchen-utensils",
+      "name": "Kitchen Utensils",
+      "aliases": [
+        "Cooking Tools",
+        "Cookware"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Tools like spoons, spatulas, or knives used in cooking. Typically made from metal, wood or plastic.",
+      "guidance": {
+        "disposal": "Recycle metal utensils. Plastic ones should be disposed of in regular trash unless recyclable.",
+        "preparation": "Separate by material (metal, plastic) for proper recycling. Clean before disposal.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Recyclable Waste"
+    },
+    {
+      "id": "knives",
+      "name": "Knives",
+      "aliases": [
+        "Cutlery",
+        "Blades",
+        "Kitchen Knives"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Sharp tools used for cutting, often made of metal.",
+      "guidance": {
+        "disposal": "Metal recycling or regular trash (if securely wrapped)",
+        "preparation": "Wrap blades securely to prevent injury before disposal.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "light-bulbs",
+      "name": "Light Bulbs",
+      "aliases": [
+        "Incandescent Bulbs",
+        "Fluorescent Bulbs",
+        "LED Bulbs",
+        " "
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Devices that produce light by converting electricity, commonly made from glass and metal. Most common types are CFLs or LEDs,",
+      "guidance": {
+        "disposal": "Dispose at a hazardous waste facility or recycle through special programs, especially for CFLs and LEDs.",
+        "preparation": "Handle carefully to avoid breakage. Some bulbs (CFLs) contain mercury, so dispose of at hazardous waste centers.",
+        "routes": [
+          "hazardous-collection",
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-waste"
+    },
+    {
+      "id": "lighters",
+      "name": "Lighters",
+      "aliases": [],
+      "streams": [
+        "hazardous",
+        "recyclable"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "pressurised"
+      ],
+      "description": "Small portable devices used to ignite flames, often for smoking or starting fires. They are typically made of plastic and meta",
+      "guidance": {
+        "disposal": "Empty them completely before disposing of them in the trash. If refillable, they can be reused or taken to hazardous waste centers.",
+        "preparation": "Ensure they are completely empty of gas. Do not dispose of them in a fire-prone area. Dispose of at hazardous waste facilities if they contain fuel.",
+        "routes": [
+          "hazardous-collection",
+          "reuse-or-donate"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste/Recyclable Waste"
+    },
+    {
+      "id": "magazines",
+      "name": "Magazines",
+      "aliases": [
+        "Glossy Paper",
+        "Periodicals"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Printed publications containing articles, photos, and advertisements.",
+      "guidance": {
+        "disposal": "Paper recycling bin",
+        "preparation": "Remove plastic covers or inserts before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "mattresses",
+      "name": "Mattresses",
+      "aliases": [
+        "Beds",
+        "Foam Mattresses"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Large soft items used for sleeping, often filled with foam or springs.",
+      "guidance": {
+        "disposal": "Bulky item waste collection or recycling center",
+        "preparation": "Check local guidelines for mattress recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "makeup-containers",
+      "name": "Makeup Containers",
+      "aliases": [
+        "Cosmetic Containers"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small plastic or glass containers used to store cosmetics like foundation, lipstick, or powders. ",
+      "guidance": {
+        "disposal": "Clean and recycle plastic/glass containers where facilities accept them. Otherwise, throw in regular trash.",
+        "preparation": "Clean before recycling to avoid contamination. Some containers might not be recyclable, so check local guidelines.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Recyclable Waste"
+    },
+    {
+      "id": "mirrors",
+      "name": "Mirrors",
+      "aliases": [
+        "Looking Glass",
+        "Rearview Mirror",
+        " "
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "sharp"
+      ],
+      "description": "Glass surfaces coated with a reflective material, often used for personal grooming or decoration.",
+      "guidance": {
+        "disposal": "Do not recycle as regular glass. Dispose of them in the regular trash after safely wrapping to prevent injury.",
+        "preparation": "Wrap in newspaper or cardboard to prevent injury and handle with care to avoid breaking glass.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Recyclable Waste"
+    },
+    {
+      "id": "medicines",
+      "name": "Medicines",
+      "aliases": [
+        "Pharmaceuticals",
+        "Pills",
+        "Tablets"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "healthcare"
+      ],
+      "description": "Substances used for medical treatment, often in the form of pills, liquids, or creams.",
+      "guidance": {
+        "disposal": "Pharmacy take-back programs or hazardous waste collection",
+        "preparation": "Do not flush down the toilet. Keep out of reach of children and pets.",
+        "routes": [
+          "hazardous-collection",
+          "specialist-service"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nafdac-medicine-disposal",
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "mobile-phones",
+      "name": "Mobile Phones",
+      "aliases": [
+        "Cell Phones",
+        "Smartphones"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Handheld electronic devices used for communication and other tasks.",
+      "guidance": {
+        "disposal": "E-waste recycling or trade-in programs",
+        "preparation": "Wipe data before disposal. Remove battery if possible.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "napkins",
+      "name": "Napkins",
+      "aliases": [
+        "Paper Napkins",
+        "Table Napkins",
+        "Serviettes"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Soft paper products used for wiping hands or faces during meals.",
+      "guidance": {
+        "disposal": "Compost (if clean) or regular trash",
+        "preparation": "Avoid composting if contaminated with grease or food waste.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "newspapers",
+      "name": "Newspapers",
+      "aliases": [
+        "Dailies",
+        "Printed News"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Printed paper publications that report on current events.",
+      "guidance": {
+        "disposal": "Paper recycling bin",
+        "preparation": "Remove any plastic sleeves before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "nylon-bags",
+      "name": "Nylon Bags",
+      "aliases": [
+        "Plastic Bags",
+        "Shopping Bags"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Flexible plastic bags often used for carrying groceries or other items.",
+      "guidance": {
+        "disposal": "Plastic recycling or reuse",
+        "preparation": "Avoid throwing away bags that can be reused. Check local recycling rules.",
+        "routes": [
+          "reuse-or-donate",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "oil-filters",
+      "name": "Oil Filters",
+      "aliases": [
+        "Engine Oil Filters",
+        "Fuel Filter",
+        " "
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Devices used in vehicles to remove impurities from engine oil. They are made of metal and paper.",
+      "guidance": {
+        "disposal": "Dispose at a hazardous waste facility or return to an auto shop that recycles used oil and filters.",
+        "preparation": "Drain the filter to remove oil before disposal. Dispose of used oil and filters at a hazardous waste facility.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "office-supplies",
+      "name": "Office Supplies",
+      "aliases": [
+        "Stationery"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Items like pens, paper, staplers, or folders used in workspaces.",
+      "guidance": {
+        "disposal": "Paper items can be recycled, while plastic and metal items may need to be sorted depending on local recycling rules.",
+        "preparation": "Sort and recycle according to material type (e.g., paper, plastic, metal). Avoid throwing away hazardous items like markers with ink.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste / Inorganic Waste"
+    },
+    {
+      "id": "paint",
+      "name": "Paint",
+      "aliases": [
+        "Wall Paint",
+        "Acrylic Paint",
+        "Oil-based Paint"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "A liquid or mastic composition used for decorative or protective coatings, typically for walls or surfaces.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site, or allow to dry completely and dispose of in regular trash if small amounts",
+        "preparation": "Do not pour liquid paint down the drain. Handle oil-based paints with extra caution.",
+        "routes": [
+          "hazardous-collection",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "petrol",
+      "name": "Petrol",
+      "aliases": [
+        "Gasoline",
+        "Fuel"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical",
+        "flammable"
+      ],
+      "description": "A volatile flammable liquid used as fuel for internal combustion engines.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site",
+        "preparation": "Store in a safe container away from heat or flame. Do not dispose of in drains or regular trash.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "palm-kernel-shells",
+      "name": "Palm Kernel Shells",
+      "aliases": [
+        "Palm Kernels"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "The hard outer covering of palm seeds left over from oil extraction. They are often used as fuel for bioenergy or as mulch in agriculture.",
+      "guidance": {
+        "disposal": "Compost or use for biofuel if available.",
+        "preparation": "Compost or use as biofuel. Avoid dumping in public spaces to prevent pollution.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "plastic-chairs",
+      "name": "Plastic Chairs",
+      "aliases": [
+        "Plastic Seating",
+        "Plastic Furniture"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Lightweight seating made from molded plastic, commonly used in homes and public spaces.",
+      "guidance": {
+        "disposal": "Recycle through plastic recycling programs if accepted. Otherwise, dispose of in bulk waste.",
+        "preparation": "Do not burn. Recycle at plastic recycling centers or dispose of in bulk waste.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Recyclable Waste"
+    },
+    {
+      "id": "plastic-utensils",
+      "name": "Plastic Utensils",
+      "aliases": [
+        "Plastic Forks",
+        "Plastic Spoons",
+        "Plastic Knives",
+        "Plastic Cutlery"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Disposable cutlery made from plastic, often used in take-out food services. They are usually single-use.",
+      "guidance": {
+        "disposal": "Single-use plastic utensils should be thrown in the trash unless local recycling programs accept them.",
+        "preparation": "Check if your local recycling accepts plastic utensils. Wash them before recycling to prevent contamination.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Recyclable Waste"
+    },
+    {
+      "id": "pizza-boxes",
+      "name": "Pizza Boxes",
+      "aliases": [
+        "Corrugated Cardboard Boxes",
+        "Food Packaging"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Cardboard boxes typically used to store and deliver pizza.",
+      "guidance": {
+        "disposal": "Recycling bin if clean, or regular trash if soiled with grease",
+        "preparation": "Only recycle the non-greasy parts of the box.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "pesticides",
+      "name": "Pesticides",
+      "aliases": [
+        "Insecticides",
+        "Herbicides",
+        "Weed Killers"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "chemical"
+      ],
+      "description": "Chemicals used to eliminate pests or unwanted plants.",
+      "guidance": {
+        "disposal": "Hazardous waste collection site",
+        "preparation": "Store securely and follow label instructions. Do not pour down drains.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "radios",
+      "name": "Radios",
+      "aliases": [
+        "Transistor Radios",
+        "AM/FM Radios"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Electronic devices used to receive radio broadcasts.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Remove batteries before disposal.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "rag",
+      "name": "Rag",
+      "aliases": [
+        "Cloth Scraps",
+        "Old Fabrics"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Pieces of old fabric or cloth often used for cleaning or other purposes.",
+      "guidance": {
+        "disposal": "Textile recycling or regular trash",
+        "preparation": "Wash or dry clean if donating. Reuse whenever possible.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "razor-blade",
+      "name": "Razor Blade",
+      "aliases": [
+        "Shaving Blades",
+        "Straight Razor Blades"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "sharp"
+      ],
+      "description": "Sharp metal blades used for shaving or cutting.",
+      "guidance": {
+        "disposal": "Wrap securely and dispose of in regular trash or sharps disposal if applicable",
+        "preparation": "Handle with care to avoid cuts. Use a blade disposal container if possible.",
+        "routes": [
+          "hazardous-collection",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "receipts",
+      "name": "Receipts",
+      "aliases": [
+        "Transaction Slips",
+        "Proof of Purchase"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Paper records of transactions, often printed on thermal paper.",
+      "guidance": {
+        "disposal": "Regular trash or paper recycling if local guidelines allow",
+        "preparation": "Thermal paper may contain chemicals that make it unsuitable for composting.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "rubber-bands",
+      "name": "Rubber Bands",
+      "aliases": [
+        "Elastic Bands"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Elastic loops made from rubber used to hold objects together.",
+      "guidance": {
+        "disposal": "Re-use whenever possible or dispose of them in regular trash.",
+        "preparation": "Reuse if possible. Avoid littering as they can harm wildlife. Dispose of them in a waste bin.",
+        "routes": [
+          "reuse-or-donate",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "rubber-slippers",
+      "name": "Rubber Slippers",
+      "aliases": [
+        "Flip-Flops, Sandals"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Footwear made from rubber, commonly used in tropical climates.",
+      "guidance": {
+        "disposal": "Reuse if possible, or dispose of in regular trash.",
+        "preparation": "Reuse or recycle where possible. Avoid burning, as rubber emits harmful chemicals.",
+        "routes": [
+          "reuse-or-donate",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste/Recyclable Waste"
+    },
+    {
+      "id": "rusty-metal",
+      "name": "Rusty Metal",
+      "aliases": [
+        "Rust",
+        "Corroded Metal"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Metal items that have corroded due to oxidation.",
+      "guidance": {
+        "disposal": "Take to a scrap metal recycler.",
+        "preparation": "Wear gloves to avoid cuts or tetanus infection. Recycle at a metal facility.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "rubble",
+      "name": "Rubble",
+      "aliases": [
+        "Construction Debris",
+        "Broken Bricks",
+        "Concrete"
+      ],
+      "streams": [
+        "construction"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Waste material from construction or demolition, including bricks, concrete, and other debris.",
+      "guidance": {
+        "disposal": "Construction waste disposal sites or reuse as fill material",
+        "preparation": "Handle heavy materials carefully to avoid injury.",
+        "routes": [
+          "reuse-or-donate"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Construction and Demolition Waste"
+    },
+    {
+      "id": "shampoo-bottles",
+      "name": "Shampoo Bottles",
+      "aliases": [
+        "Conditioner Bottles",
+        "Hair Product Containers"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Plastic containers used to store liquid shampoo or conditioner.",
+      "guidance": {
+        "disposal": "Plastic recycling bin",
+        "preparation": "Rinse bottles before recycling. Remove caps if required by local recycling rules.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "solar-panels",
+      "name": "Solar Panels",
+      "aliases": [
+        "Photovoltaic Panels",
+        "PV Modules"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Panels used to convert sunlight into electricity, often found in renewable energy installations.",
+      "guidance": {
+        "disposal": "E-waste recycling or specialized solar panel recycling programs",
+        "preparation": "Handle with care to avoid damaging the panels or exposure to hazardous materials.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "shoes",
+      "name": "Shoes",
+      "aliases": [
+        "Footwear",
+        "Sneakers",
+        "Sandals"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Wearable items designed to protect the feet.",
+      "guidance": {
+        "disposal": "Donate if in good condition, otherwise dispose of in regular trash or specialized shoe recycling programs",
+        "preparation": "Ensure shoes are clean if donating. Some stores offer recycling programs.",
+        "routes": [
+          "reuse-or-donate",
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "sachet-water",
+      "name": "Sachet Water",
+      "aliases": [
+        "Packaged Water",
+        "Pure Water"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small plastic sachets used to package drinking water, commonly found in Nigeria.",
+      "guidance": {
+        "disposal": "Recycle if local facilities accept plastic film, or throw in regular trash.",
+        "preparation": "Avoid littering. Ensure plastic is sent for recycling if accepted locally.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste (plastic) / Recyclable Waste"
+    },
+    {
+      "id": "scrap-metal",
+      "name": "Scrap Metal",
+      "aliases": [
+        "Metal Scrap",
+        "Scrap Iron"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Discarded metal items that can be recycled to produce new metal products. This includes aluminum, steel, and other valuable metals.",
+      "guidance": {
+        "disposal": "Take to a scrap metal recycler.",
+        "preparation": "Store safely to avoid injury. Recycle at metal collection points.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "sponges",
+      "name": "Sponges",
+      "aliases": [
+        "Scrubbers"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Porous cleaning tools made from synthetic or natural materials. They are usually not recyclable but can be reused until worn out.",
+      "guidance": {
+        "disposal": "Throw away in regular trash unless they are made from biodegradable materials.",
+        "preparation": "Do not flush down the drain. Dispose of used sponges in regular trash or compost if biodegradable.",
+        "routes": [
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "styrofoam",
+      "name": "Styrofoam",
+      "aliases": [
+        "Polystyrene",
+        "Foam Packaging"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Lightweight, foam-like material often used for packaging or food containers.",
+      "guidance": {
+        "disposal": "Specialized recycling centers or regular trash (if not recyclable locally)",
+        "preparation": "Check local recycling guidelines as styrofoam is not accepted everywhere.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "sellotape",
+      "name": "Sellotape",
+      "aliases": [
+        "Scotch Tape",
+        "Adhesive Tape"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Clear or transparent adhesive tape used for packaging or wrapping.",
+      "guidance": {
+        "disposal": "Regular trash",
+        "preparation": "Avoid placing in recycling bins as it can contaminate paper recycling.",
+        "routes": [
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "sticky-notes",
+      "name": "Sticky Notes",
+      "aliases": [
+        "Post-it Notes",
+        "Adhesive Paper"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small pieces of paper with a re-adherable strip of adhesive on the back.",
+      "guidance": {
+        "disposal": "Paper recycling bin or compost if clean",
+        "preparation": "Remove any non-paper materials like plastic holders or clips before recycling.",
+        "routes": [
+          "compost",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "sweet-wrapper",
+      "name": "Sweet Wrapper",
+      "aliases": [
+        "Candy Wrappers",
+        "Chocolate Wrappers"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small wrappers used to cover sweets or candy, often made of plastic or foil.",
+      "guidance": {
+        "disposal": "Regular trash or recycling if locally accepted",
+        "preparation": "Check if the wrapper is recyclable; many candy wrappers contain mixed materials.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "syringe",
+      "name": "Syringe",
+      "aliases": [
+        "Needle",
+        "Injection Device"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "sharp",
+        "healthcare"
+      ],
+      "description": "Medical devices used to inject fluids into or withdraw fluids from the body.",
+      "guidance": {
+        "disposal": "Sharps disposal container or hazardous waste collection",
+        "preparation": "Do not dispose of in regular trash. Handle with extreme care to avoid needle stick injuries.",
+        "routes": [
+          "hazardous-collection"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "who-sharps",
+          "nesrea-healthcare-waste",
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "sand",
+      "name": "Sand",
+      "aliases": [
+        "Construction Sand",
+        "Beach Sand"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Granular material composed of finely divided rock and mineral particles, often used in construction or landscaping.",
+      "guidance": {
+        "disposal": "Reuse or dispose of at construction waste facilities",
+        "preparation": "Ensure the sand is free from contaminants if reusing.",
+        "routes": [
+          "reuse-or-donate"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "soil",
+      "name": "Soil",
+      "aliases": [
+        "Dirt",
+        "Earth"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "A natural material composed of minerals, organic matter, and living organisms, often used for gardening.",
+      "guidance": {
+        "disposal": "Reuse for landscaping or dispose of at garden waste facilities",
+        "preparation": "Ensure soil is uncontaminated before reuse.",
+        "routes": [
+          "reuse-or-donate"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "television",
+      "name": "Television",
+      "aliases": [
+        "TV",
+        "LCD TV",
+        "Plasma TV",
+        "CRT TV"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Electronic devices used to display video content, available in various formats such as LCD, plasma, or CRT.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Remove batteries from remotes. Do not throw televisions into regular trash as they may contain hazardous materials.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "textiles",
+      "name": "Textiles",
+      "aliases": [
+        "Clothing",
+        "Fabrics",
+        "Cloth"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Material made of natural or synthetic fibers, often used for clothing, curtains, and upholstery.",
+      "guidance": {
+        "disposal": "Donate, recycle at textile recycling centers, or dispose of in regular trash if damaged",
+        "preparation": "Wash and clean textiles if donating or recycling.",
+        "routes": [
+          "reuse-or-donate",
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "toothpaste-tubes",
+      "name": "Toothpaste Tubes",
+      "aliases": [
+        "Dental Tubes"
+      ],
+      "streams": [
+        "general",
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Plastic or aluminum tubes used to store toothpaste.",
+      "guidance": {
+        "disposal": "Non-recyclable in most places. Throw in regular trash unless special recycling programs are available.",
+        "preparation": "Ensure fully used before disposal. Some tubes (with aluminum or foil) are not recyclable.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste / Recyclable Waste "
+    },
+    {
+      "id": "tea-bags",
+      "name": "Tea Bags",
+      "aliases": [
+        "Herbal Tea Bags",
+        "Tea Sachets"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small porous bags used to infuse tea leaves or herbs in hot water.",
+      "guidance": {
+        "disposal": "Compost if biodegradable, or dispose of in regular trash if synthetic",
+        "preparation": "Check if the bag is made of plastic or biodegradable materials before composting.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "tiles",
+      "name": "Tiles",
+      "aliases": [
+        "Ceramic Tiles",
+        "Porcelain Tiles"
+      ],
+      "streams": [
+        "construction"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Flat, often square or rectangular pieces used to cover floors, walls, or surfaces, often made from ceramic or stone.",
+      "guidance": {
+        "disposal": "Construction waste disposal site",
+        "preparation": "Handle with care to avoid breaking and causing injury.",
+        "routes": [
+          "check-locally"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Construction and Demolition Waste"
+    },
+    {
+      "id": "tissue",
+      "name": "Tissue",
+      "aliases": [
+        "Paper Tissues",
+        "Facial Tissues"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Soft, disposable paper products often used for hygiene purposes.",
+      "guidance": {
+        "disposal": "Regular trash (if used) or compost (if clean and uncoated)",
+        "preparation": "Do not flush tissues down the toilet as they can cause blockages.",
+        "routes": [
+          "compost",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "torch-light",
+      "name": "Torch Light",
+      "aliases": [
+        "Flashlight",
+        "Torch",
+        "Torchlight"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "A portable handheld device that emits light using a battery or rechargeable power source.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Remove batteries before disposal and recycle separately.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "toner-cartridges",
+      "name": "Toner Cartridges",
+      "aliases": [
+        "Printer Cartridges",
+        "Laser Printer Toner",
+        "Printer Ink"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Cartridges containing toner powder used in laser printers and photocopiers.",
+      "guidance": {
+        "disposal": "Return to manufacturer for recycling or drop off at e-waste collection points",
+        "preparation": "Handle with care to avoid spilling toner powder.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "trees",
+      "name": "Trees",
+      "aliases": [
+        "Tree Branches",
+        "Tree Trunks"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Parts of trees including branches and trunks, typically resulting from landscaping or storm damage.",
+      "guidance": {
+        "disposal": "Garden waste facility or composting",
+        "preparation": "Large trees may require cutting before disposal. Some regions may offer curbside pickup for yard waste.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "tires",
+      "name": "Tires",
+      "aliases": [
+        "Car Tires",
+        "Rubber Tires",
+        "Tyres"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Rubber coverings that fit around wheels to provide traction for vehicles.",
+      "guidance": {
+        "disposal": "Tyre recycling facility, or return to tyre dealers",
+        "preparation": "Tyres are often not accepted in regular waste disposal systems due to their bulky nature.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "umbrellas",
+      "name": "Umbrellas",
+      "aliases": [
+        "Rain Umbrellas",
+        "Sun Umbrellas"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Handheld devices designed to protect users from rain or sunlight, typically made of fabric and metal.",
+      "guidance": {
+        "disposal": "Regular trash if broken, or recycle parts if possible",
+        "preparation": "Remove any metal parts if separating for recycling.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Municipal Solid Waste"
+    },
+    {
+      "id": "used-batteries",
+      "name": "Used Batteries",
+      "aliases": [
+        "Dead Batteries"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [],
+      "description": "Devices that store energy for powering electronics, typically made of metals and chemicals.",
+      "guidance": {
+        "disposal": "Take to a hazardous waste collection facility or return to stores with battery recycling programs.",
+        "preparation": "Store in a cool, dry place to avoid leaks. Dispose of at hazardous waste collection points or recycling facilities.",
+        "routes": [
+          "hazardous-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-battery-regulations",
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "used-generator-parts",
+      "name": "Used Generator Parts",
+      "aliases": [
+        "Generator Scrap"
+      ],
+      "streams": [
+        "e-waste",
+        "recyclable"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Old or broken parts from generators, typically made of metal and plastic.",
+      "guidance": {
+        "disposal": "Recycle at scrap metal facilities or e-waste centers if they contain electrical components.",
+        "preparation": "Dispose of at a scrap metal facility. If they contain electrical components, treat them as e-waste.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste/Recyclable Waste"
+    },
+    {
+      "id": "washing-machines",
+      "name": "Washing Machines",
+      "aliases": [
+        "Laundry Machines",
+        "Washers"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Large household appliances used for washing clothes and textiles.",
+      "guidance": {
+        "disposal": "E-waste recycling center, or return to retailer if they offer disposal services",
+        "preparation": "Disconnect from electrical outlets and water lines before disposal.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "watch",
+      "name": "Watch",
+      "aliases": [
+        "Wristwatches",
+        "Timepieces"
+      ],
+      "streams": [
+        "e-waste"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "electronic"
+      ],
+      "description": "Small wearable devices used to tell time, often made of metal, plastic, or leather.",
+      "guidance": {
+        "disposal": "E-waste recycling center",
+        "preparation": "Remove batteries before disposal, and recycle separately.",
+        "routes": [
+          "e-waste-collection",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-electronics-regulations",
+          "nesrea-epr-guidance"
+        ]
+      },
+      "legacyCategory": "E-Waste"
+    },
+    {
+      "id": "water-bottle",
+      "name": "Water Bottle",
+      "aliases": [
+        "Reusable Bottles",
+        "Hydration Bottles"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Containers used to store and transport water, often made from plastic, metal, or glass.",
+      "guidance": {
+        "disposal": "Recycle if plastic or dispose of in regular trash if damaged",
+        "preparation": "Rinse bottles before recycling, and ensure that they are empty.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "whiteboard",
+      "name": "Whiteboard",
+      "aliases": [
+        "Dry Erase Boards",
+        "Marker Boards"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Smooth, hard surfaces designed for non-permanent markings with dry-erase markers.",
+      "guidance": {
+        "disposal": "Bulk trash or specialized recycling centers",
+        "preparation": "Remove and recycle accessories such as markers separately.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "wallpaper",
+      "name": "Wallpaper",
+      "aliases": [
+        "Wall Covering"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Decorative paper or vinyl used to cover walls.",
+      "guidance": {
+        "disposal": "Non-recyclable, dispose of in regular trash.",
+        "preparation": "Avoid burning (especially vinyl wallpaper) as it can release toxic fumes. Dispose of in regular waste.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "wood-shavings",
+      "name": "Wood Shavings",
+      "aliases": [
+        "Sawdust"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small pieces of wood left over from woodworking. They are often used for animal bedding, mulch, or compost.",
+      "guidance": {
+        "disposal": "Compostable in organic waste bins or use for mulch in gardens.",
+        "preparation": "Avoid mixing with chemicals or treated wood. Compost or dispose of in organic waste.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "worn-out-fabrics",
+      "name": "Worn-out Fabrics",
+      "aliases": [
+        "Tattered Clothing",
+        "Rags"
+      ],
+      "streams": [
+        "general",
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Old or damaged textiles from clothing or household items. ",
+      "guidance": {
+        "disposal": "Donate if in good condition, or recycle through textile recycling programs.",
+        "preparation": "Donate usable items. If disposing, ensure they are clean to avoid attracting pests and insects.",
+        "routes": [
+          "reuse-or-donate",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste (if natural materials) / Inorganic Waste (if synthetic)"
+    },
+    {
+      "id": "woven-baskets",
+      "name": "Woven Baskets",
+      "aliases": [
+        "Wicker Baskets"
+      ],
+      "streams": [
+        "general",
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Handcrafted containers made from natural materials like bamboo, palm fronds, or reeds. They are biodegradable and can be reused or composted.",
+      "guidance": {
+        "disposal": "If made of natural materials, compost or dispose of as organic waste.",
+        "preparation": "If biodegradable, compost. If synthetic, ensure proper disposal in regular trash.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste (if natural materials) / Inorganic Waste (if synthetic)"
+    },
+    {
+      "id": "wrapping-sheet",
+      "name": "Wrapping Sheet",
+      "aliases": [
+        "Gift Wrap",
+        "Decorative Paper"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Paper used to wrap gifts, often brightly colored or patterned.",
+      "guidance": {
+        "disposal": "Recycle if plain paper, or dispose of in regular trash if metallic or plastic-coated",
+        "preparation": "Remove any non-paper elements such as tape, ribbons, and bows before recycling.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "x-ray-film",
+      "name": "X-ray Film",
+      "aliases": [
+        "Radiographic Film"
+      ],
+      "streams": [
+        "hazardous"
+      ],
+      "riskLevel": "special-handling",
+      "handlingFlags": [
+        "healthcare"
+      ],
+      "description": "A special type of plastic film used in medical imaging.",
+      "guidance": {
+        "disposal": "Return to medical facilities or take to special recycling centers that extract silver.",
+        "preparation": "Handle carefully as it contains silver. Return to specialized recycling programs to prevent pollution.",
+        "routes": [
+          "hazardous-collection",
+          "specialist-service",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "source-linked",
+        "reviewedAt": "2026-09-18",
+        "sourceIds": [
+          "nesrea-regulations"
+        ]
+      },
+      "legacyCategory": "Hazardous Waste"
+    },
+    {
+      "id": "yoghurt-container",
+      "name": "Yoghurt Container",
+      "aliases": [
+        "Plastic Yoghurt Tubs",
+        "Dairy Containers"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Plastic containers used to store yoghurt or similar dairy products.",
+      "guidance": {
+        "disposal": "Plastic recycling bin",
+        "preparation": "Rinse the container before recycling to remove food residue.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "yam-peels",
+      "name": "Yam Peels",
+      "aliases": [
+        "Yam Skins"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "The outer skin of yams, removed during food preparation. ",
+      "guidance": {
+        "disposal": "Compost or dispose of with organic waste.",
+        "preparation": "Compost where possible. Avoid littering as they can attract pests.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "yarn",
+      "name": "Yarn",
+      "aliases": [
+        "Knitting Yarn",
+        "Crochet Yarn"
+      ],
+      "streams": [
+        "general",
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "A long, continuous thread used for knitting or weaving. Made from natural or synthetic fibers.",
+      "guidance": {
+        "disposal": "Donate or recycle through textile recycling programs. Compost natural fibers like wool or cotton.",
+        "preparation": "If natural fibers, it can be composted. Otherwise, dispose of in regular waste. Avoid burning, especially synthetic fibers.",
+        "routes": [
+          "compost",
+          "reuse-or-donate",
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste (if natural fibers) / Inorganic Waste (if synthetic fibers)"
+    },
+    {
+      "id": "zinc-roofing-sheets",
+      "name": "Zinc Roofing Sheets",
+      "aliases": [
+        "Galvanized Sheets"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Metal sheets used for roofing, commonly found in Nigeria.",
+      "guidance": {
+        "disposal": "Recycle as scrap metal.",
+        "preparation": "Wear gloves when handling to avoid cuts. Recycle at a metal facility.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "zobo-leaves",
+      "name": "Zobo Leaves",
+      "aliases": [
+        "Roselle Leaves",
+        "Hibiscuss Leaves"
+      ],
+      "streams": [
+        "organic"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Dried hibiscus leaves used to make Zobo which is a popular Nigerian drink.",
+      "guidance": {
+        "disposal": "Compost or dispose of with organic waste.",
+        "preparation": "Compost to reduce organic waste. Ensure they are not mixed with plastic or other contaminants.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Organic Waste"
+    },
+    {
+      "id": "zip-ties",
+      "name": "Zip Ties",
+      "aliases": [
+        "Cable Ties",
+        "Plastic Ties"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Small plastic ties used for securing objects. They are single-use.",
+      "guidance": {
+        "disposal": "Non-recyclable plastic. Dispose of in regular trash.",
+        "preparation": "Cut them into smaller pieces before disposal to prevent wildlife entanglement. Do not flush.",
+        "routes": [
+          "recycling",
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Inorganic Waste"
+    },
+    {
+      "id": "cardboard",
+      "name": "Cardboard",
+      "aliases": [
+        "Corrugated Cardboard",
+        "Carton Boxes",
+        "Packing Boxes"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Thick, sturdy paper material often used for packaging and shipping.",
+      "guidance": {
+        "disposal": "Recycling center or curbside recycling",
+        "preparation": "Remove any non-paper elements like plastic or foam before recycling. Flatten boxes to save space.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "aliases": [
+        "Glass Bottles",
+        "Glass Jars",
+        "Glass Containers",
+        "Broken Glass"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "take-care",
+      "handlingFlags": [
+        "sharp"
+      ],
+      "description": "Hard, brittle material commonly used for bottles and containers.",
+      "guidance": {
+        "disposal": "Recycling center or curbside recycling",
+        "preparation": "Rinse glass items and remove any lids or caps. Do not recycle broken glass with regular recyclables.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "metal",
+      "name": "Metal",
+      "aliases": [
+        "Scrap Metal",
+        "Metal Sheets",
+        "Metal Pipes"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Solid material commonly used for construction, packaging, and manufacturing.",
+      "guidance": {
+        "disposal": "Recycling center or metal scrap yard",
+        "preparation": "Remove any non-metal parts, like plastic or rubber, before recycling.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "organic",
+      "name": "Organic",
+      "aliases": [
+        "Food Waste",
+        "Yard Waste",
+        "Compostable Material"
+      ],
+      "streams": [
+        "compostable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Biodegradable material that comes from living organisms, such as food scraps or plant trimmings.",
+      "guidance": {
+        "disposal": "Compost bin or organic waste collection service",
+        "preparation": "Avoid adding meat, dairy, or oils to the compost. Keep compostable materials dry.",
+        "routes": [
+          "compost"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Compostable Waste"
+    },
+    {
+      "id": "paper",
+      "name": "Paper",
+      "aliases": [
+        "Newspaper",
+        "Office Paper",
+        "Magazines"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Thin sheets of material made from wood pulp, used for writing, printing, and packaging.",
+      "guidance": {
+        "disposal": "Recycling center or curbside recycling",
+        "preparation": "Avoid recycling wet or soiled paper. Remove any staples or clips.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "aliases": [
+        "Plastic Bottles",
+        "Plastic Containers",
+        "Plastic Packaging"
+      ],
+      "streams": [
+        "recyclable"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Synthetic or semi-synthetic material used in a wide range of products.",
+      "guidance": {
+        "disposal": "Recycling center or curbside recycling",
+        "preparation": "Rinse plastic items and check recycling symbols to ensure they are accepted. Remove labels and lids if required.",
+        "routes": [
+          "recycling"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Recyclable Waste"
+    },
+    {
+      "id": "trash",
+      "name": "Trash",
+      "aliases": [
+        "General Waste",
+        "Landfill Waste",
+        "Non-Recyclable Waste"
+      ],
+      "streams": [
+        "general"
+      ],
+      "riskLevel": "standard",
+      "handlingFlags": [],
+      "description": "Waste that cannot be recycled or composted, including items contaminated by food or hazardous materials.",
+      "guidance": {
+        "disposal": "General trash bin or landfill",
+        "preparation": "Separate recyclables and compostables before disposing of general trash. Avoid mixing hazardous waste with trash.",
+        "routes": [
+          "general-waste"
+        ],
+        "jurisdiction": "General guidance; confirm for the FCT",
+        "status": "historical",
+        "reviewedAt": null,
+        "sourceIds": []
+      },
+      "legacyCategory": "Non-Recyclable Waste"
+    }
+  ]
+}

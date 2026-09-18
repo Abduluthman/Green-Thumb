@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Disposal guidance | Green Thumb{% endblock %}
+{% block content %}
+<section class="detail-page shell" data-page="detail"><a class="back-link" href="/WasteDictionary.html">Back to dictionary</a><header class="detail-header"><div><p class="label">Waste dictionary</p><h1 id="wasteName" role="status">Loading...</h1><p id="other-names" class="aliases"></p></div><div class="detail-tags"><p id="risk-level" class="tag"></p><p id="waste-streams" class="tag secondary-tag"></p></div></header>
+  <div id="waste-details" hidden><div id="risk-alert" class="risk-alert" hidden><strong id="risk-alert-title"></strong><p id="risk-alert-text"></p></div><div class="detail-grid"><section><span class="detail-number">01</span><h2>Description</h2><p id="waste-description"></p></section><section><span class="detail-number">02</span><h2>Suggested disposal</h2><p id="proper-disposal"></p><p id="disposal-routes" class="detail-meta"></p></section><section><span class="detail-number">03</span><h2>Preparation and precautions</h2><p id="precautions"></p></section></div>
+    <section class="guidance-evidence" aria-labelledby="evidence-title"><div><p class="label">Guidance status</p><h2 id="evidence-title">What supports this entry</h2><p id="guidance-note"></p><p id="reviewed-at" class="detail-meta"></p></div><div><h3>Official references</h3><ul id="source-list"></ul><h3>Local help</h3><p id="local-authority"></p><p id="local-contact" class="detail-meta"></p></div></section>
+    <div class="callout"><strong>Before you act</strong><p>Collection services and accepted materials vary by location. Confirm this information with the listed authority or your approved local collector.</p><a id="report-guidance" href="/Feedback.html?topic=Dictionary%20correction">Report an error or local update</a></div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Green Thumb helps you identify waste and find practical disposal guidance.">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <title>{% block title %}Green Thumb{% endblock %}</title>
+  <link rel="icon" href="{{ url_for('static', filename='leaf.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="prototype-bar"><div class="shell"><span class="status-dot" aria-hidden="true"></span><strong>Research prototype</strong><span>Predictions may be inaccurate. Check local guidance before disposing of an item.</span></div></div>
+  <header class="site-header shell">
+    <a class="brand" href="/" aria-label="Green Thumb home"><img src="{{ url_for('static', filename='leaf.svg') }}" width="32" height="32" alt=""><span>Green Thumb</span></a>
+    <nav aria-label="Main navigation"><a href="/Home.html" {% if request.path in ['/', '/Home.html', '/Welcome.html'] %}aria-current="page"{% endif %}>Home</a><a href="/Upload.html" {% if request.path == '/Upload.html' %}aria-current="page"{% endif %}>Upload</a><a href="/Camera.html" {% if request.path == '/Camera.html' %}aria-current="page"{% endif %}>Camera</a><a href="/WasteDictionary.html" {% if request.path == '/WasteDictionary.html' %}aria-current="page"{% endif %}>Dictionary</a></nav>
+  </header>
+  <main id="main">{% block content %}{% endblock %}</main>
+  <footer class="site-footer"><div class="shell footer-inner"><div><strong>Green Thumb</strong><p>A Baze University final year project by Abdulwahab Uthman Muhammad.</p></div><nav aria-label="Footer navigation"><a href="/Feedback.html">Feedback</a><a href="https://doi.org/10.4314/njt.v44i2.18">Research paper</a><a href="/login">Admin</a></nav></div></footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Waste dictionary | Green Thumb{% endblock %}
+{% block content %}
+<section class="page-intro shell"><a class="back-link" href="/">Back to home</a><h1>Waste dictionary</h1><p>Search by item name, another common name, or material category.</p></section>
+<section class="dictionary shell" data-page="dictionary">
+  <div class="search-block"><label for="search-box">Search 136 items</label><div class="search-control"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4 4"/></svg><input type="search" id="search-box" placeholder="For example: battery, bottle, cardboard" autocomplete="off"></div>
+    <div class="dictionary-filters"><div><label for="stream-filter">Waste stream</label><select id="stream-filter"><option value="">All streams</option><option value="recyclable">Recyclable material</option><option value="organic">Organic waste</option><option value="e-waste">Electronic waste</option><option value="hazardous">Hazardous waste</option><option value="general">General waste</option><option value="construction">Construction waste</option><option value="industrial">Industrial waste</option><option value="compostable">Compostable waste</option></select></div><div><label for="risk-filter">Handling</label><select id="risk-filter"><option value="">All handling levels</option><option value="standard">Standard handling</option><option value="take-care">Take care</option><option value="special-handling">Special handling</option></select></div></div>
+    <p id="dictionary-status" class="supporting-text" role="status">Loading items...</p></div>
+  <div id="waste-list" class="dictionary-grid"></div>
+  <div class="callout dictionary-note"><strong>Local rules vary</strong><p>The dictionary is educational guidance. Confirm accepted materials and collection options with the Abuja Environmental Protection Board or your approved local collector.</p></div>
+</section>
+{% endblock %}

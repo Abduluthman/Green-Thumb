@@ -1,0 +1,28 @@
+# Local runtime and private data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+instance/
+feedback.json
+.local-backup/
+.tools/
+.test-artifacts/
+node_modules/
+# Model weights are distributed separately; see docs/MODEL_CARD.md.
+*.h5
+*.keras
+*.tflite
+# Editor and OS files
+.idea/
+.vscode/
+desktop.ini
+Thumbs.db
+.DS_Store

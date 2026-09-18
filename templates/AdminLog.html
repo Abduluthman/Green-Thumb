@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Admin login | Green Thumb{% endblock %}
+{% block content %}
+<section class="page-intro narrow shell"><a class="back-link" href="/">Back to home</a><h1>Admin login</h1><p>Sign in to review submitted feedback.</p></section>
+<section class="form-wrap shell"><form class="form-card" action="/login" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><label for="username">Username</label><input id="username" name="username" autocomplete="username" required maxlength="100"><label for="password">Password</label><input type="password" id="password" name="password" autocomplete="current-password" required maxlength="200">{% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}<button class="button" type="submit">Sign in</button></form></section>
+{% endblock %}

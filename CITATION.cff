@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If this project informs your work, cite the related NIJOTECH publication using the preferred citation below."
+title: "Green Thumb: Waste Classification and Disposal Guidance"
+type: software
+authors:
+  - family-names: Muhammad
+    given-names: Abdulwahab Uthman
+license: MIT
+repository-code: "https://github.com/Abduluthman/Green-Thumb"
+preferred-citation:
+  type: article
+  title: "Evaluating Deep Learning Models for Real-Time Waste Classification in Smart IoT Environment"
+  authors:
+    - family-names: Omonayin
+      given-names: E.
+    - family-names: Akande
+      given-names: O. N.
+    - family-names: Muhammad
+      given-names: A.
+    - family-names: Enemuo
+      given-names: S.
+  journal: Nigerian Journal of Technology
+  volume: '44'
+  issue: '2'
+  start: 357
+  end: 366
+  year: 2025
+  doi: 10.4314/njt.v44i2.18
+  url: https://www.nijotech.com/index.php/nijotech/article/view/4339

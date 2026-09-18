@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Feedback dashboard | Green Thumb{% endblock %}
+{% block content %}
+<section class="page-intro shell admin-heading"><div><p class="label">Administration</p><h1>Feedback</h1><p>The latest 100 submissions, newest first.</p></div><form action="/logout" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="button secondary" type="submit">Sign out</button></form></section>
+<section class="admin-content shell" data-page="admin"><p id="admin-status" class="supporting-text" role="status">Loading feedback...</p><div id="feedback-container" class="feedback-list"></div></section>
+{% endblock %}

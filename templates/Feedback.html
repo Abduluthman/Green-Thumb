@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Send feedback | Green Thumb{% endblock %}
+{% block content %}
+<section class="page-intro narrow shell"><a class="back-link" href="/">Back to home</a><h1>Send feedback</h1><p>Report a problem or suggest an improvement. Please do not include personal or sensitive information.</p></section>
+<section class="form-wrap shell" data-page="feedback"><form id="feedbackForm" class="form-card"><label for="issue">Topic</label><select id="issue" name="issue" required><option value="">Select a topic</option><option>Incorrect classification</option><option>Camera issue</option><option>Image upload issue</option><option>Dictionary correction</option><option>General feedback</option></select><label for="description">Details</label><textarea id="description" name="description" rows="7" required maxlength="2000" placeholder="What happened, and what did you expect?"></textarea><div class="form-footer"><p>Feedback is stored for review by the project administrator.</p><button class="button" type="submit">Send feedback</button></div><p id="feedback-status" class="form-status" role="status" aria-live="polite"></p></form></section>
+{% endblock %}

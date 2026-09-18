@@ -1,0 +1,15 @@
+{
+  "name": "green-thumb",
+  "private": true,
+  "description": "Development-only frontend checks for the Green Thumb Flask application",
+  "scripts": {
+    "test": "node --test tests/frontend.test.cjs",
+    "format": "prettier --write static/app.css static/app.js",
+    "check": "node --check static/app.js && prettier --check static/app.css static/app.js"
+  },
+  "engines": { "node": ">=22.14" },
+  "devDependencies": {
+    "jsdom": "29.1.1",
+    "prettier": "3.9.7"
+  }
+}
